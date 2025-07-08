@@ -1,16 +1,16 @@
 # Renart Product Listing App
 
-## Özellikler
-- Ürünler için RESTful API (Node.js + Express)
-- Canlı altın fiyatı ile dinamik fiyat hesaplama
-- Modern, responsive React arayüzü
-- Carousel, renk seçici, yıldızlı puan
-- Fiyat ve popülerliğe göre filtreleme
-- Tasarıma uygun özel fontlar (Avenir, Montserrat)
+## Features
+- RESTful API for products (Node.js + Express)
+- Dynamic price calculation with live gold price
+- Modern, responsive React interface
+- Carousel, color picker, star rating
+- Filtering by price and popularity
+- Custom fonts matching the design (Avenir, Montserrat)
 
 ---
 
-## Kurulum
+## Setup
 
 ### 1. Backend
 ```bash
@@ -18,10 +18,10 @@ cd backend
 npm install
 ```
 
-#### .env Dosyası Oluşturma
-`backend/.env` dosyasını oluşturun ve API anahtarınızı ekleyin:
+#### Creating .env file
+create `backend/.env` file and add your API key:
 ```
-GOLD_API_KEY=goldapi-1jlsbk17mcu8ldmi-io
+GOLD_API_KEY= **
 ```
 
 ### 2. Frontend
@@ -32,15 +32,15 @@ npm install
 
 ---
 
-## Geliştirme Ortamında Çalıştırma
+## Running in Development Environment
 
-### Backend'i Başlat
+### Start Backend
 ```bash
 cd backend
 node index.js
 ```
 
-### Frontend'i Başlat
+### Start Frontend
 ```bash
 cd backend/frontend
 npm start
