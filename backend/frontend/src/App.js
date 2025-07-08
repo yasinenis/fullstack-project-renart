@@ -63,7 +63,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/api/products')
+    axios.get('https://fullstack-project-renart.onrender.com/api/products')
       .then(res => {
         setProducts(res.data);
         setLoading(false);
